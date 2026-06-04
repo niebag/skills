@@ -1,0 +1,12 @@
+{
+  "name": "niebag",
+  "owner": {
+    "name": "Niels Baggerman"
+  },
+  "plugins": [
+    {
+      "name": "niebag-skills",
+      "source": "."
+    }
+  ]
+}
