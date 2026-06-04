@@ -6,7 +6,7 @@
   "plugins": [
     {
       "name": "niebag-skills",
-      "source": "."
+      "source": "./"
     }
   ]
 }
