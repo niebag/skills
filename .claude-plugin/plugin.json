@@ -1,6 +1,7 @@
 {
   "name": "niebag-skills",
   "skills": [
-    "./skills/sharpen-my-axe"
+    "./skills/sharpen-my-axe",
+    "./skills/conventional-commit"
   ]
 }
