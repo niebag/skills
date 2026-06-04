@@ -1,9 +1,11 @@
 {
   "name": "niebag-skills",
   "skills": [
-    "./skills/sharpen-my-axe",
+    "./skills/drill-me",
     "./skills/conventional-commit",
     "./skills/create-skill",
-    "./skills/refine-ticket"
+    "./skills/refine-ticket",
+    "./skills/to-prd",
+    "./skills/to-tickets"
   ]
 }
