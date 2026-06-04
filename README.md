@@ -1,5 +1,7 @@
 # niebag-skills
 
+[![skills.sh](https://skills.sh/b/niebag/skills)](https://skills.sh/niebag/skills)
+
 Personal skills by Niels Baggerman.
 
 ## Install via Claude Code
