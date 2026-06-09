@@ -1,0 +1,21 @@
+{
+  "$schema": "https://skills.sh/schema/config.json",
+  "groupings": [
+    {
+      "title": "Engineering",
+      "skills": [
+        "conventional-commit",
+        "create-skill"
+      ]
+    },
+    {
+      "title": "Project Management",
+      "skills": [
+        "drill-me",
+        "refine-ticket",
+        "to-prd",
+        "to-tickets"
+      ]
+    }
+  ]
+}

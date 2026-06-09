@@ -1,11 +1,11 @@
 {
   "name": "niebag-skills",
   "skills": [
-    "./skills/drill-me",
-    "./skills/conventional-commit",
-    "./skills/create-skill",
-    "./skills/refine-ticket",
-    "./skills/to-prd",
-    "./skills/to-tickets"
+    "./skills/engineering/conventional-commit",
+    "./skills/engineering/create-skill",
+    "./skills/project-management/drill-me",
+    "./skills/project-management/refine-ticket",
+    "./skills/project-management/to-prd",
+    "./skills/project-management/to-tickets"
   ]
 }
