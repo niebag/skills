@@ -1,4 +1,4 @@
-# niebag-skills
+# skills
 
 [![skills.sh](https://skills.sh/b/niebag/skills)](https://skills.sh/niebag/skills)
 
