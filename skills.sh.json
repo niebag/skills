@@ -5,17 +5,7 @@
     {
       "title": "Engineering",
       "skills": [
-        "conventional-commit",
-        "create-skill"
-      ]
-    },
-    {
-      "title": "Project Management",
-      "skills": [
-        "drill-me",
-        "refine-ticket",
-        "to-prd",
-        "to-tickets"
+        "conventional-commit"
       ]
     }
   ]
