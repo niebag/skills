@@ -39,7 +39,7 @@ claude plugin update niebag-skills@niebag-skills
 ## Install via skills.sh
 
 ```bash
-npx skills add niebag/skills
+npx skills@latest add niebag/skills
 ```
 
 ## Skills
