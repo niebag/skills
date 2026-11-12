@@ -21,3 +21,5 @@ Craft a Conventional Commits message:
 - **Footers:** `Token: value`, multi-word tokens hyphenated
 
 Output: fenced commit message + `git commit` command (heredoc if multi-line). No commit, no explanation.
+
+Exception: if the arguments explicitly ask to commit or push (any language, e.g. `commit`, `and push`), run the `git commit` yourself, then `git push` if asked. Never push to a branch other than the current one, never force-push. Output: the commit message + short hash, and the push result.
