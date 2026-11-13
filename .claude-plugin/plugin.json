@@ -1,6 +1,7 @@
 {
   "name": "niebag-skills",
   "skills": [
-    "./skills/engineering/conventional-commit"
+    "./skills/engineering/conventional-commit",
+    "./skills/engineering/prune-comments"
   ]
 }
