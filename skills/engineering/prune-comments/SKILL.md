@@ -1,7 +1,9 @@
 ---
 name: prune-comments
-description: 'Removes code comments that do not earn their place, keeping only comments that explain what the code cannot. It is used when the user asks to minimize, trim or clean up comments in a diff, branch, PR/MR or files.'
+description: 'Removes code comments that do not earn their place, keeping only comments that explain what the code below them cannot. It is used when the user asks to minimize, trim or clean up comments in a diff, branch, PR/MR or files, and as a final pass over code you wrote before presenting or committing it.'
 ---
+
+Writing code: the default is no comment. Add one only if it passes the keep-test below. Before presenting a change or committing it, run this pass over every comment you added, without being asked; skip the report then unless a comment was borderline.
 
 Scope: the files, branch or PR/MR the user names (work on its source branch locally). Otherwise the current branch's changes against its base: `git diff $(git merge-base HEAD origin/HEAD)`, plus uncommitted changes. Touch only comments on changed lines unless the user asks for whole files.
 
