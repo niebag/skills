@@ -5,7 +5,9 @@
     {
       "title": "Engineering",
       "skills": [
-        "conventional-commit"
+        "conventional-commit",
+        "prune-comments",
+        "address-review-comments"
       ]
     }
   ]

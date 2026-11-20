@@ -20,6 +20,8 @@ Craft a Conventional Commits message:
 - **Body:** blank line, *why* not *what*, wrap 72 chars
 - **Footers:** `Token: value`, multi-word tokens hyphenated
 
-Output: fenced commit message + `git commit` command (heredoc if multi-line). No commit, no explanation.
+Split unrelated concerns: if the staged files form clearly separate groups (e.g. a feature plus a version or build-number bump, IDE/editor config, or formatting-only churn), use one commit per group, main change first. Split by whole files only, and only if none of the split-off files also has unstaged changes (`git diff --name-only`); otherwise keep one commit. Sequence: `git restore --staged <split-off paths>`, commit the main group, then per group `git add <paths>` + its own `git commit`.
 
-Exception: if the arguments explicitly ask to commit or push (any language, e.g. `commit`, `and push`), run the `git commit` yourself, then `git push` if asked. Never push to a branch other than the current one, never force-push. Output: the commit message + short hash, and the push result.
+Output: fenced commit message + `git commit` command (heredoc if multi-line), per commit in order, with the restore/add commands when split. No commit, no explanation.
+
+Exception: if the arguments explicitly ask to commit or push (any language, e.g. `commit`, `and push`), run the `git commit`(s) yourself, then `git push` if asked. Never push to a branch other than the current one, never force-push. Output: each commit message + short hash, and the push result.
