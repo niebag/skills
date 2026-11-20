@@ -50,3 +50,4 @@ npx skills@latest add niebag/skills
 |---|---|
 | `/conventional-commit` | Inspect staged changes and craft a Conventional Commits–compliant message, auto-detects ticket numbers from the branch name |
 | `/prune-comments` | Strip comments that restate code, narrate history or comment out code; keep only the ones that explain what the code cannot |
+| `/address-review-comments` | Work through PR/MR review comments: verify each finding against current code, fix the valid ones minimally, skip the rest with a reason |
